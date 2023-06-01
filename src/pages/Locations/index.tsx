@@ -78,7 +78,7 @@ const Locations: React.FC = () => {
                     <button className='search'>Busque por local <img src={iconSearch} alt="" /></button>
                 </div>
                 <div className='divTable'>
-                    <Table bordered hover className='text-center'>
+                    <Table table-dark bordered hover className='text-center'>
                         <thead>
                             <tr>
                                 <th>Continente</th>
