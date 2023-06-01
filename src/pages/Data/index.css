@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( to bottom, #03291B, #0B0400 80% );
+}
+
+.divLogo {
+    display: flex;
+    color: #00FF66;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.divLogo h1 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+.divLogo img {
+    width: 20%;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.divMenu {
+    margin-top: 30px;
+}
+
+.menu {
+    width: 20%;
+}
+
+.dropdown-menu.show {
+    background-color: #0B0400;
+    border: 1px solid #00FF66;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.menuItem {
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #00ff6670;
+}
+
+.menuItem:hover {
+    color: #00FF66;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.menuItem img {
+    margin-right: 10px;
+}
+
+#last-item {
+    border: none;
+}
+
+.dropdown-toggle::after {
+    color: transparent;
+}
+
+
+/* CONTAINER */
+
+.containerMainData {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.containerMainData h1 {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.divContainerData {
+    width: 90%;
+}
+
+.divContainerDataTable {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:30px;
+        border: 1px solid #00FF66;
+        background-color: #0B0400;
+        box-shadow: 0px 0px 20px #03943d;
+        border-radius: 10px;
+        margin-top: 25px;
+}
+
+.divLocal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.divLocal img {
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+.divLocalText {
+    text-align: start;
+    margin-left: 10px;
+}
+
+.divLocalText h3 {
+    font-size: 1.1rem;
+}
+
+.divLocalText h4 {
+    font-size: 1rem;
+}
+
+.dataTable {
+    border: 1px solid #00FF66;
+    border-radius: 10px;
+    text-align: start;
+    padding: 10px 0px;
+    margin: 10px 0px 15px;
+    width: 100%;
+}
+
+.lineTitle {
+    display: flex;
+    justify-content: space-between;
+    color: #00FF66;
+    font-size: 0.9rem;
+    padding: 0px 15px;
+    margin-bottom: -20px;
+}
+
+.levelTitle {
+    color: #0F0500;
+    background-color: #00FF66;
+    font-weight: 700;
+    padding: 0px 5px;
+    border-radius: 6px;
+    height: 25px;
+}
+
+.line {
+    display: flex;
+    border-bottom: 1px solid #00ff667c;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line p {
+    padding: 0px 15px;
+    margin: 8px 0px;
+    font-size: 0.75rem;
+}
+
+#lastline {
+    border: none;
+}
+
+.divLeft {
+    width: 48%;
+}
+
+.divRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divNivel {
+    margin-bottom: 20px
+}
+
+.divNivel img {
+    margin-bottom: 10px;
+}
+
+.divVoltar {
+    text-align: end;
+    width: 100%;
+    margin: 25px 0px 10px;
+}
+
+.btnVoltar {
+    background-color: #00FF66;
+    color: #0F0500;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnVoltar img {
+    width: 15%;
+    margin-left: 10px;
+}
+
+.btnVoltar:hover {
+    box-shadow: 2px 2px 10px #03291B;
+}
+
+.btnVoltar:active {
+    box-shadow: inset 2px 2px 10px #03291B;
+}

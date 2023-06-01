@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( to bottom, #03291B, #0B0400 80% );
+}
+
+.divLogo {
+    display: flex;
+    color: #00FF66;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.divLogo h1 {
+    font-size: 1.5rem;
+}
+
+.divLogo img {
+    width: 10%;
+    margin-left: 15px;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.divMenu {
+    margin-top: 30px;
+}
+
+.menu {
+    width: 20%;
+}
+
+.dropdown-menu.show {
+    background-color: #0B0400;
+    border: 1px solid #00FF66;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.menuItem {
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #00ff6670;
+}
+
+.menuItem:hover {
+    color: #00FF66;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.menuItem img {
+    margin-right: 10px;
+}
+
+#last-item {
+    border: none;
+}
+
+.dropdown-toggle::after {
+    color: transparent;
+}
+
+/* CONTAINER */
+
+.containerMainTable {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.containerMainTable h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.divMap {
+    width: 80%;
+}
+
+.map {
+    color: #ffffff;
+    background-color: #0B0400;
+    border-color: #00FF66;
+    box-shadow: 0px 0px 20px #03943d;
+}
+
+.search {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    min-width: 220px;
+    padding: 5px 20px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 20px 0px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search img {
+    width: 10%;
+}
+
+.divVoltar {
+    text-align: end;
+    width: 100%;
+    margin: 25px 0px 10px;
+}
+
+.btnVoltar {
+    background-color: #00FF66;
+    color: #0F0500;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnVoltar img {
+    width: 15%;
+    margin-left: 10px;
+}
+
+.btnVoltar:hover {
+    box-shadow: 2px 2px 10px #03291B;
+}
+
+.btnVoltar:active {
+    box-shadow: inset 2px 2px 10px #03291B;
+}

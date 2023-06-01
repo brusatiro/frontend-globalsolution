@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( to bottom, #03291B, #0B0400 80% );
+}
+
+.divLogo {
+    display: flex;
+    color: #00FF66;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.divLogo h1 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+.divLogo img {
+    width: 20%;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.nav-Item {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../assets/icons/iconMenu.png);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#entrar {
+    color: #00FF66;
+    font-weight: 600;
+}
+
+#inscrever {
+    background-color: #00FF66;
+    color: #0F0500;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+/* CONTAINER */
+
+.containerMainLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px;
+    padding-bottom: 20px;
+}
+
+.divContainerLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    border: 1px solid #00FF66;
+    background-color: #0B0400;
+    box-shadow: 0px 0px 20px #03943d;
+    border-radius: 10px;
+}
+
+.divContainerLogin h2 {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 1.2rem;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.input {
+    font-size: 1rem;
+    padding: 15px 20px;
+    width: 350px;
+    margin-bottom: 15px;
+    background-color: #376445;
+    border: none;
+    border-radius: 5px;
+}
+
+.input::placeholder {
+    color: #ffffffdc;
+}
+
+.btnEsqueciSenha, .btnLembrar  {
+    font-size: 1rem;
+}
+
+.btnEntrar {
+    align-self: center;
+    margin: 20px 0;
+    background-color: #00FF66;
+    color: #0F0500;
+    font-weight: 700;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}

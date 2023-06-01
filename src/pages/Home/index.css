@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #03291B, #0B0400 80%);
+}
+
+.divLogo {
+    display: flex;
+    color: #00FF66;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.divLogo h1 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+.divLogo img {
+    width: 20%;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.nav-Item {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../assets/icons/iconMenu.png);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#entrar {
+    color: #00FF66;
+    font-weight: 600;
+}
+
+#inscrever {
+    background-color: #00FF66;
+    color: #0F0500;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.custom-navbar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+
+/* CONTAINER */
+
+.containerMain {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.containerMain h2 {
+    font-size: 1.8rem;
+    margin: 25px 0;
+}
+
+.divContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.divBlocos {
+    display: flex;
+}
+
+.bloco {
+    width: 300px;
+    height: 180px;
+    border: 1px solid #00FF66;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 35px 20px;
+}
+
+.bloco img {
+    margin-bottom: 15px;
+}
+
+.divAbrir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.btnAbrir {
+    background-color: #00FF66;
+    color: #0F0500;
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 3px 15px;
+    border-radius: 10px;
+    margin-top: 45px;
+    border: none;
+    height: 50px;
+}
+
+.btnAbrir img {
+    width: 12%;
+    margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+    .divContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+    }
+}
